@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>BMI</title>
   </head>
+  
   <body>
     <header class="text-center mt-5">
       <h1><b>Check your BMI</b></h1>
@@ -15,19 +16,19 @@
     </header>
 
     <div class="container-sm my-5">
-      <div class="form" id="weightInput">
       <form action="">
+        <div class="form" id="weightInput">
           <p>Put your weight in here (KG)</p>
           <input id="weight" type="text" class="form-control form-control-lg" aria-label=".form-control-lg">
         </div>
-        <div class="form" id="heightInput">
+        <div class="form mt-4" id="heightInput">
           <p>And your height in here (CM)</p>
           <input id="height" type="text" name="b" class="form-control form-control-lg" aria-label=".form-control-lg">
         </div>
-        <button class="btn btn-primary mt-2" type="button" onclick="calculate()">Calculate BMI</button>
+        <button class="btn my-3" style="background-color: rgb(78, 3, 252); color: white;" type="button" onclick="calculate()">Calculate BMI</button>
       </form>
       
-      <div id="results" class="text-center">Your BMI results will appear here</div>
+      <div id="results" class="text-start"></div>
     </div>
 
     <script src="script.js"></script>
