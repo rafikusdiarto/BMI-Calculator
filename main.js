@@ -21,12 +21,11 @@ function calculate() {
 	
 
 	if (weight === 0 ) {
-		document.getElementById("results").innerHTML = error;
+		document.getElementById("results").innerHTML = alert(error);
 	} else if (height === 0){
-		document.getElementById("results").innerHTML = error;
+		document.getElementById("results").innerHTML =  alert(error);
 	}
 	 else {
-
 		document.getElementById("results").innerHTML = measure;
 	}
 	if (weight < 0) {
