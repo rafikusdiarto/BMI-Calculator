@@ -3,7 +3,7 @@ var weight, height, measure, bmi, error ;
 function calculate() {
 	weight = document.getElementById("weight").value;
 	height = document.getElementById("height").value;
-	error = "Please enter some values";
+	error = "masukkan angka yang valid";
 	height /= 100;
 	height *= height;
 	bmi = weight/height;
